@@ -1,0 +1,116 @@
+:root {
+    --red: #dc3545;
+  }
+  
+  /*! -------------- 1- NAVBAR ---------------- */
+  .navbar-nav {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .navbar img{
+    background-color: beige;
+    border: none;
+  }
+  .nav-link {
+    transition: color 0.7s;
+  }
+  
+  /* .nav-link.active:hover {
+    color: green !important;
+  } */
+  
+  .navbar .nav-link.active:hover {
+    color: var(--red) 
+  }
+  
+  .navbar .nav-link:hover {
+    color: var(--red);
+  }
+  
+  /*! ------------- 2- CAROUSEL --------------- */
+  .carousel-item {
+    max-height: calc(100vh - 93px);
+
+  }
+  
+  .carousel-caption .btn {
+    width: 7rem;
+    /* margin-bottom: 1rem; */
+  }
+  
+  .carousel-caption h5 {
+    /* color: var(--red); */
+    font-size: 2.4rem;
+    text-shadow: 3px 3px 3px var(--red) ;
+  }
+  
+  .carousel-caption p {
+    text-shadow: 3px 3px 3px black;
+    font-weight: 600;
+  }
+  
+  .carousel-caption {
+    bottom: 5rem;
+  
+    /*! yatay ve dikey ortalama iÃ§in transform kullanÄ±labilir. */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+  
+  
+  /*! ------------ 3- ABOUT SECTION ----------- */
+  
+  /*! ------------- 4- cÄ±ties -------------*/
+  section#cities .card {
+    transition: transform 0.3s;
+  }
+
+   section#cities .card-title{
+     color: var(--red);
+   }
+  
+  section#cities .card:hover {
+    transform: scale(1.05);
+  }
+  
+  section#cities i {
+    transition: opacity 0.5s;
+  }
+  
+  section#cities i:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  /*! ----------- 4- STUDENTS SECTION ----------*/
+  
+  /*! ----------- 5- COURSES SECTION ----------- */
+  section#facilities .nav-link.active {
+    background-color: var(--red);
+    color: white;
+  }
+  
+  section#facilities .nav-link {
+    color: white;
+  }
+  
+  section#facilities .nav-pills button {
+    font-size: 0.8rem;
+  }
+  #facilities{
+    background-size: cover;
+  }
+
+  
+  /*! ----------- 6- CONTACT SECTION ------------ */
+  
+  /*! --------------- 7- FOOTER ----------------- */
+form.label{
+  display: flex;
+  text-align: left;
+}
+  
+  /** -------------- UP-BUTTON ------------------ */

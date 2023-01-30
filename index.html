@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- ****************NAVBAR***************** -->
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <img
+          src="./img/swiss.jpeg"
+          width="150rem"
+          alt="swiss"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cities">Cities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#facilities">Facilities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#register">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ****************CAROUSEL***************** -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/bern.jpg" class="d-block w-100" alt="bern" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bern</h5>
+            <p>Capital of Switzerland</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/zurich.jpeg" class="d-block w-100" alt="zurich" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Zurich</h5>
+            <p>The Biggest City of Switzerland</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Geneva.jpeg" class="d-block w-100" alt="cenevre" />
+          <div class="carousel-caption d-none d-sm-block">
+            <h5>Geneva</h5>
+            <p>Second Biggest City of Switzerland</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+       <!-- ********* ABOUT ******** -->
+       <main class="text-center">
+        <section id="about" class="container bg-light p-3">
+          <h2 class="text-danger display-9">ABOUT SWİSS</h2>
+
+
+          <div class="row justify-content-center">
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <i class="fa-brands fa-facebook-square fa-2x text-bg-danger"></i>
+              <h4>German Cantons</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+                modi assumenda ab. Rerum, sequi neque?
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <i class="fa-brands fa-twitter-square fa-2x text-bg-danger"></i>
+              <h4>French Cantons</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+                modi assumenda ab. Rerum, sequi neque? Lorem ipsum,
+               
+              </p>
+            </div>
+            <div class="ol-sm-12 col-md-6 col-lg-4">
+              <i class="fa-brands fa-google-plus-square fa-2x text-bg-danger"></i>
+              <h4>İtalian Cantons</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+                modi assumenda ab. Rerum, sequi neque?
+              </p>
+            </div>
+          </div>
+        </section>
+
+
+          <!-- ********* CITIES ******** -->
+        
+          <section id="cities" class="container bg-secondary p-3">
+            <h2 class="text-danger display-9">CITIES</h2>
+    
+            <div class="row g-3 justify-content-center">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card">
+                  <img src="./img/basel.jpeg" class="card-img-top" alt="C1" />
+                  <div class="card-body">
+                    <h5 class="card-title">Basel</h5>
+                    <p class="card-text">
+                      Basel quick example text to build on the card title and make up
+                      the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card">
+                  <img src="./img/luzern.webp" class="card-img-top" alt="C2" />
+                  <div class="card-body">
+                    <h5 class="card-title">Luzern</h5>
+                    <p class="card-text">
+                      Luzern quick example text to build on the card title and make up
+                      the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card">
+                  <img src="./img/StGallen.jpeg" class="card-img-top" alt="C3" />
+                  <div class="card-body">
+                    <h5 class="card-title">St. Gallen</h5>
+                    <p class="card-text">
+                     St.Gallen quick example text to build on the card title and make up
+                      the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card">
+                  <img src="./img/Lausanne.jpeg" class="card-img-top" alt="C4" />
+                  <div class="card-body">
+                    <h5 class="card-title">Lausanne</h5>
+                    <p class="card-text">
+                      Lausanne quick example text to build on the card title and make up
+                      the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card">
+                  <img src="./img/lugano.jpeg" class="card-img-top" alt="C5" />
+                  <div class="card-body">
+                    <h5 class="card-title">Lugano</h5>
+                    <p class="card-text">
+                      Lugano quick example text to build on the card title and make up
+                      the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card">
+                  <img src="./img/neuchatel.jpeg" class="card-img-top" alt="C6" />
+                  <div class="card-body">
+                    <h5 class="card-title">Neuchatel</h5>
+                    <p class="card-text">
+                      Neuchatel quick example text to build on the card title and make up
+                      the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+             <!-- ********* ARA BOlme ******** -->
+
+          <section id="students" class="container bg-light p-3">
+            <h2 class="display-9 text-danger">OUR CITIES</h2>
+            <div class="row">
+              <div class="col ">
+                <p class="">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
+                  doloremque quam! In sit aliquam sapiente ad dicta facilis
+                  explicabo cupiditate laudantium repudiandae, dignissimos, aliquid
+                  aut quos omnis repellat. Eaque quos, nobis illo dolor alias labore
+                  obcaecati rem odit explicabo maiores?
+                </p>
+
+             <!-- ********* FACILITIES ******** -->
+
+             <section id="facilities" class="container bg-secondary p-4">
+              <h2 class="text-danger display-9">FACILITIES</h2>
+      
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#rs-img" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Ski Resorts</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#mv-img" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Mountain Villages</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#st-img" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Sightseeing Tours</button>
+              </li>
+           
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="rs-img" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="row g-2">
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/rs-1.jpeg">
+                       <img class="img-thumbnail" src="./img/thumbnail/rs-1.jpeg" alt="rs3">
+                    </a>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/rs-3.jpeg">
+                      <img class="img-thumbnail" src="./img/thumbnail/rs-3.jpeg" alt="rs1"></a>
+                  </div>
+                
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/rs-4.avif">
+                       <img class="img-thumbnail" src="./img/thumbnail/rs-4.avif" alt="rs4">
+                    </a>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/rs-2.webp">
+                       <img class="img-thumbnail" src="./img/thumbnail/rs-2.webp" alt="rs2">
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="mv-img" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+                <div class="row g-2">
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/mv-1.jpeg">
+                       <img class="img-thumbnail" src="./img/thumbnail/mv-1.jpeg" alt="mv1">
+                    </a>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/mv-2.webp">
+                      <img class="img-thumbnail" src="./img/thumbnail/mv-2.webp" alt="mv2"></a>
+                  </div>
+                
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/mv-3.jpeg">
+                      <img class="img-thumbnail" src="./img/thumbnail/mv-3.jpeg" alt="mv3"></a>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/mv-4.webp">
+                       <img class="img-thumbnail" src="./img/thumbnail/mv-4.webp" alt="mv4">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="st-img" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+                <div class="row g-2">
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/st-1.jpeg">
+                       <img class="img-thumbnail" src="./img/thumbnail/st-1.jpeg" alt="st1">
+                    </a>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/st-3.jpeg">
+                      <img class="img-thumbnail" src="./img/thumbnail/st-3.jpeg" alt="st2"></a>
+                  </div>
+                
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/st-2.jpeg">
+                      <img class="img-thumbnail" src="./img/thumbnail/st-2.jpeg" alt="st3"></a>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <a data-fslightbox href="./img/thumbnail/st-4.webp">
+                       <img class="img-thumbnail" src="./img/thumbnail/st-4.webp" alt="st4">
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+              </div>  
+            </div>
+
+            <!-- ********* FORM ******** -->
+
+            <section id="register" class="container  p-4">
+              <h2 class="text-danger display-9">REGISTER</h2>
+
+            <form class="row g-3 p-5 text-start">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+            
+          
+              <div class="col">
+                    <label for="inputState" class="form-label">City</label>
+                  <select id="inputState" class="form-select">
+                        <option value="#">Select City</option>
+                        <option value="Bern">Bern</option>
+                        <option value="Zurich">Zurich</option>
+                        <option value="Geneva">Geneva</option>
+                        <option value="Basel">Basel</option>
+                        <option value="Luzern">Luzern</option>
+                        <option value="St.Gallen">St.Gallen</option>
+                        <option value="Lausanne">Lausanne</option>
+                        <option value="Lugano">Lugano</option>
+                        <option value="Neuchatel">Neuchatel</option>
+                    </select>
+                </div>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+
+
+
+
+
+<!-- ********* CONTACTS ******** -->
+
+<section id="contact" class="container bg-light p-3">
+  <h2 class="display-9 text-danger">CONTACT</h2>
+
+  <article id="form">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+      quas dolores doloribus molestiae necessitatibus tempora sequi quos
+      at deserunt expedita.
+    </p>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <i class="fas fa-phone fa-2x text-danger"></i>
+        <h5>Telephone</h5>
+        <a href="tel:+41 77 999 99 99 ">+41 77 999 99 99 </a>
+      </div>
+
+      <div class="col-md-4">
+        <i class="fab fa-whatsapp fa-2x text-danger"></i>
+        <h5>Telephone</h5>
+        <a href="https://wa.me/+41 77 999 99 99 ">+41 77 999 99 99 </a>
+      </div>
+
+      <div class="col-md-4">
+        <i class="fas fa-envelope fa-2x text-danger"></i>
+        <h5>Mail</h5>
+        <a href="mailto:info@swiss.com">info@swiss.com</a>
+      </div>
+    </div>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="./assets/fslightbox-basic-3.3.3/fslightbox.js"
+    />
+  </body>
+</html>
